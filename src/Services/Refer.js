@@ -4,7 +4,7 @@ export const referFriend=async(refData)=>{
            method:'POST',
             headers:{
                 'Content-Type': 'application/json',
-                'Access-Control-Allow-Origin':' http://192.168.1.4:3000',
+                'Access-Control-Allow-Origin':' https://accredian-backend-task-bbxf.onrender.com/',
             },
             body: JSON.stringify(refData)
         })
